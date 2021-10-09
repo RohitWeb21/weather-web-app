@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@font-face {
+  font-family: serifme;
+  src: url("./font/PlayfairDisplay-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: barlow;
+  src: url("./font/Barlow-Thin.ttf");
+}
+
+@font-face {
+  font-family: nexa;
+  src: url("./font/Nexa\ Light.otf");
+}
+
+* {
+  /* color: #fcf80a; */
+ 
+  font-family: barlow;
+  text-transform: capitalize;
+  
+}
+
+.containers {
+  width: 100%;
+  background-image: url(../images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input {
+  border-bottom: 1px solid #fff !important;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  outline: none;
+  color: #fff;
+  font-size: 1.5rem;
+  
+}
+.myseacrhBtn{
+  width:50px;
+  height:50px;
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color:#fff;
+  position: relative;
+  top: -5px;
+  left: 20px;
+  transition: 0.3s;
+}
+.myseacrhBtn:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #000;
+  backdrop-filter: 10px;
+
+}
+.fontSize1 {
+  font-size: 1.3rem;
+}
+.fontSize1-2{
+  font-size:1.5rem;
+}
+.fontSize2 {
+  font-size: 3rem;
+}
+.fontSize3 {
+  font-size: 5rem;
+}
+.fontWhite {
+  color: #fff;
+}
+.fontWhiteRgba {
+  color: rgba(255, 255, 255, 0.4);
+}
+.searchDivHeight {
+  height: 28vh;
+  color: #fff;
+}
+
+.divHeightLocation{
+  height: 72vh;
+  
+}
+.location { color: #fff;
+  height: 300px;
+}
+.time {
+  position: absolute;
+  right: 40px;
+}
+.roundMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color:#b8f5ea ;
+  padding:0px 80px 50px 50px;
+}
+.roundDiv {
+  width: 280px;
+  height: 280px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  background-color: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+}
+.roundInnerDit {
+  width: 280px;
+  height: 280px;
+}
+.tempText {
+  margin: 20px 0 0 0;
+}
+.tempTextRightDiv {
+  margin: 0 0 0 0;
+}
+hr {
+  width: 80%;
+  margin-left:10% ;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 12px;
+  padding-bottom: 0px;
+}
+.HumidityDot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(11, 245, 11);
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  top: -13px;
+}
+.mainrightDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightMainDiv {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-top-left-radius: 25px;
+  border-top: 1.6px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+}
+.bgInput {
+  background-color: royalblue;
+}
+.bgContry {
+  background-color: silver;
+}
+.bgRound {
+  background-color: slateblue;
+}
+.bgRight {
+  background-color: silver;
+}
+
+
+/* midea querys */
+@media only screen and (max-width: 768px) {
+  .divHeightLocation{
+    height: 30vh;
+  }
+  .roundMainDiv {
+  width: 100%;
+    height: 60vh;
+  }
+  .rightMainDiv {
+    height: auto;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  }
+  .mainrightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .allDivHeight {
+    height: auto;
+    position: static;
+  }
+}
+/* @media only screen and (max-width: 989px) {
+  
+    .roundMainDiv {
+      width: 100%;
+        height: 60vh;
+      }
+  
+} */
+
